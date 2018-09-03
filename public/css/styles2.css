@@ -1,0 +1,192 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 62.5%;
+}
+
+
+ p{
+    color: #fff;
+}
+
+.tam-blue-btn{
+    background-color: #fdaf43;
+}
+
+.container-fluid .page-wrapper{
+    margin: 0 50px;
+}
+
+/* WEBSITE NAVIGATION STYLES */
+header {
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.6) 0, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.6) 0, rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0, rgba(0,0,0,0) 100%); 
+}
+
+header .navbar navbar{
+    padding: 15px auto;
+    margin: auto auto;
+}
+
+header .navbar li{
+    list-style: none;
+    display: inline-block;
+    font-size: 17px;
+    padding: 30px;
+}
+
+header .navbar a{
+    color: #fff;    
+}
+header .navbar li:hover{
+    border-bottom: 4px solid #2d3192;    
+}
+
+header .navbar .brand-logo{
+    display: inline-block;
+    font-size: 50px;
+    padding: 10px;
+}
+
+header .navbar .brand-logo img{
+   max-width: 150px;
+}
+
+
+.container-fluid .content-wrapper{
+    margin: 0px 50px;
+}
+
+
+.container-fluid  #home {
+    background: url('../images/bg/etinspires.jpg');
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-attachment: ; */
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 680px;
+    
+}
+
+.container-fluid #overlay {
+    background-color: rgba(0,0,0,0.2);
+    height: 680px;
+    width: 100%; 
+   
+}
+
+
+
+.container-fluid  #home h1 {
+	font-size: 6.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px #040404;
+    line-height: 110%;
+    color: #fff;
+}
+
+.container-fluid  #home h2 {
+	margin-top: 10px;
+	font-family: 'Source Sans Pro',sans-serif;
+	font-size: 3.6em;
+	font-weight: 300;
+	text-shadow: 1px 1px #040404;
+    line-height: 110%;
+    color: #fff;
+    
+}
+
+.container-fluid  #home section .content {
+	margin: 155px 50px
+}
+
+.container-fluid  #home .content .buttons {
+  
+    margin-top: 40px;
+}
+
+.container-fluid  #home section .content .button {
+    display: inline;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.container-fluid  #home section .content .fill-tam-blue {
+    background:  linear-gradient(to bottom right, #393dad,#2d3192 );
+    margin-bottom: 10px;
+}
+
+.container-fluid  #home section .content .button a{
+    color: #fff;
+    font-size: 1.8em;
+    display: inline-block; 
+    letter-spacing: 4px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+
+.container-fluid  #home section .content .fill {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.container-fluid  #home section .content .fill a{
+    color: #2d3192;
+}
+
+
+.container-fluid  #home section .content .fill a{
+    color: #2d3192;
+}
+
+
+
+/* FEATURED CARD SECTION */
+
+.row .content-wrapper .content-header h2 {
+    color: #2d3192 ;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4.3em;
+    font-weight: bold;
+    line-height: 110%;
+}
+
+
+.row .content-wrapper .content-header h3 {
+    color: grey ;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 300;
+    line-height: 110%;
+    margin-top: 10px;
+
+}
+
+.row .content-wrapper .content-header h3::after {
+   clear: both;
+
+}
+
+
+.row .content-wrapper .featured-cards{
+    margin-top: 50px;
+    
+}

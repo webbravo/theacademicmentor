@@ -1,0 +1,70 @@
+<html><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>The Academic mentor - Career Test</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/materialize.css">
+        <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">  
+        <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />       -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+       <div class="container-fluid">
+           <div class="row z-depth-3 title">
+               <p class="center content-wrapper">THE ACADEMIC MENTOR CAREER TEST</p>
+           </div>
+              
+           <div class="row">  
+               <div class="wrapper">
+                   
+                   <div class="question-box z-depth-3 card-panel">
+                        <p class="center green-text " style="font-size:2.68rem; font-weight: bold">Congratulation <i class="fa fa-check"></i> </p>
+                        <p class="center grey-text">
+                           Thanks for taking the career test, from the few information your provided, we found out 
+                           that you have the following career personality, <br><br> you can see your various career field of study by clicking the next <b>proceed</b> button below;
+                        </p><hr>
+                       <div class="options col m12 s12">
+                           <p class="green white-text z-depth-1" id="career-option1" style="font-size:2.2rem; padding: 0px 10px; margin-bottom: 0px">Conventional</p>
+                           <p class="grey-text" id="career-option-txt1">
+                               You are a person who like to work with data, have clerical or numerical ability, carry out tasks in detail, or follow through on others’ instruction
+                            </p>
+                           <div style="height: 20px;"></div>
+                           <p class="purple white-text z-depth-3" id="career-option1" style="font-size:2.2rem; padding: 0px 10px; margin-bottom: 0px">Social</p>
+                           <p class="grey-text" id="career-option-txt1">
+                                You are also a person who like to work with people to enlighten, inform, help, train, or cure them, or are skilled with words. 
+                            </p>
+                       </div>
+                       <div class="footer">
+                           <a href="field-of-study.html" class="btn btn-large green white-text">Proceed<i class="fa fa-arrow right"></i></a>
+                       </div>
+                   </div> 
+               </div>
+           </div>
+       </div>
+    <script>
+        // var arr = [12, 2, 3, 5, 12, 8, 9, 80, 12, 8, 2, 2, 8]
+        function foo(arr) {
+            var a = [], b = [], prev;
+
+            arr.sort();
+            for (let i = 0; i < arr.length; i++) {
+            if (arr[i] !== prev) {
+                a.push(arr[i]);
+                b.push(1);
+            } else {
+                b[b.length - 1]++;
+            }
+                prev = arr[i];
+            }
+            //let mostArray   = a.sort().reverse();
+            //let numOccurance = b.sort().reverse();
+        
+            return[ a.sort().reverse(), b.sort().reverse()];
+        }
+        var convertToArray = (array) => {
+            return arr = Object.keys(array).map(function (key) {return array[key]; }); 
+        };
+        console.log(foo(convertToArray(selectedActivity)));
+
+    </script>
+    <div class="hiddendiv common"></div></body></html>

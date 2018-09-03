@@ -1,0 +1,17 @@
+{
+  "info" : {
+      "name"  : "Zoin Oshiobugie",
+      "email" : "cleverminds@gmail.com",
+      "phone" : "0806122310"
+   },
+  "hollandCode" : {
+      "one"  : "realistic",
+      "two"  : "investigative",
+      "six"  : "artistic"
+   },
+  "careerInterest" : {
+      "firstOption"  : "['pilot', 'lab tech', 'software guy', 'apple software guy']",
+      "secondOption" : "['pilot', 'lab tech', 'software guy', 'apple software guy']"
+   }
+}
+
